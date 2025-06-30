@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voting DApp (Mock)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🗳️ Voting DApp</h1>
+    <p>Select a candidate to vote for:</p>
+    <div class="candidates">
+      <button onclick="vote('Alice')">Vote Alice</button>
+      <button onclick="vote('Bob')">Vote Bob</button>
+      <button onclick="vote('Charlie')">Vote Charlie</button>
+    </div>
+
+    <h2>📊 Current Vote Counts:</h2>
+    <ul id="results">
+      <li>Alice: <span id="aliceVotes">0</span></li>
+      <li>Bob: <span id="bobVotes">0</span></li>
+      <li>Charlie: <span id="charlieVotes">0</span></li>
+    </ul>
+
+    <p id="status"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
