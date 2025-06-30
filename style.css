@@ -1,18 +1,19 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
   margin: 0;
   padding: 2rem;
   display: flex;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
   background: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   max-width: 500px;
   width: 100%;
   text-align: center;
